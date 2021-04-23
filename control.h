@@ -130,7 +130,7 @@ public:
 		// create and inshiles flags for each seachvalue and ishilize them all to false.
 
 
-		bool flagH = false, flagGe = false, flagP = false, flagR = false, flagY = false, flagGA = false;
+		bool flagH = false, flagGe = false, flagP = false, flagR = false, flagY = false, flagGa = false;
 
 		//create print object
 
@@ -173,12 +173,12 @@ public:
 				flagY = rating;//if not searching for attribute flag=true
 
 			if (attribute == "no")
-				flagGA = True;// if attribute is being searched for and is a match flag=true
+				flagGa = True;// if attribute is being searched for and is a match flag=true
 
 			else if (attribute >= obj.getGamesVector[x].genre.attribute)
-				flagGA = rating;//print if all values true
+				flagGa = rating;//print if all values true
 
-			if (flagH && flagGe && flagP && flagR && flagY && flagA)
+			if (flagH && flagGe && flagP && flagR && flagY && flaga)
 				printObj.printgame(driverObj.getGamesVector[x]);// calls print function from print object to print the game/
 
 		}
