@@ -70,7 +70,7 @@ public:
 	{
 		// check  wording for how we input classics rpg
 		if (value == 1)
-			genre = "Classics";
+			genre = "classics";
 		if (value == 2)
 			genre = "RPG";
 		if (value == 3)
