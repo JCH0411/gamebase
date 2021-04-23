@@ -181,15 +181,9 @@ public:
 			if (flagH && flagGe && flagP && flagR && flagY && flagA)
 				printObj.printgame(driverObj.getGamesVector[x]);// calls print function from print object to print the game/
 
-
-
 		}
 
-
-
-
-
-	}
+}
 
 
 
