@@ -9,6 +9,8 @@
 #include <vector>
 #include <stdlib.h>
 
+using namespace std;
+
 
 class userInterFace // this class is incharge of displaying menu’s and accepting users input
 {
@@ -63,7 +65,7 @@ class userInterFace // this class is incharge of displaying menu’s and accepti
 
 				cout << "Welcome to GameBase Please select how you would like to search for a game" << endl;
 				cout << "For admin please select option 8" << endl;
-				int again;
+				char again;
 				do
 				{
 
