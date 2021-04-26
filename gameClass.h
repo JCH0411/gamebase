@@ -34,7 +34,7 @@ void gameClass::gameclass(string gN, string hH, int yG, int pG, string gG, int r
 	ratings = rG;
 	attribute = aG;
 }
-string gameClass:: getname()
+string gameClass::getname()
 {
 	return name;
 }
