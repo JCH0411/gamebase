@@ -1,5 +1,5 @@
 #include <string>
-#ifndef GAMECLASS_H_
+#ifndef GAMECLASS_H
 #define GAMECLASS_H
 using namespace std;
 class gameClass {
