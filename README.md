@@ -1,2 +1,0 @@
-# gamebase
-software project
