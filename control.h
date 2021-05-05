@@ -179,7 +179,12 @@ class control
 			if(!gameFound)    //tetsing if any search criteris was able to locate a game for the user
 		    cout << "Sorry your search criteria did not find any games Please try again!! " << endl;
 
-			
+		hardware = "no";
+		genre = "no";
+		price = -1;
+		rating = -1;
+		year = -1;
+		gameAttribute = "no";
 			
 
 
