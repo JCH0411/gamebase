@@ -489,16 +489,16 @@ public:
 
 			case 3:
 				cout << "Enter the new year which is any year greater or equal to 1980 " << endl;
-				cin >> tempInt;
+				cin >> tempInt2;
 
-				while (tempInt < 1980) //input validation for the year
+				while (tempInt2 < 1980) //input validation for the year
 				{
 					cout << "That was an incorrect input Please select the correct choice of a year greater than or equal to 1980!!" << endl;
-					cin >> tempInt;
+					cin >> tempInt2;
 
 				}
 				cout << "\n";
-				driverObj.setVectorYear(tempInt, x);
+				driverObj.setVectorYear(tempInt2, x);
 				break;
 
 			case 4:
